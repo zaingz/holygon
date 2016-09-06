@@ -1,0 +1,1456 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Holygon</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+  <!-- Favicon-->
+  <link rel="shortcut icon" href="images/favicon.png" >
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="stylesheet" href="assets/font/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/libs/materialize/css/materialize.min.css" media="screen,projection" />
+  <link rel="stylesheet" href="assets/css/bootstrap.css" media="screen,projection" />
+
+  <link rel="stylesheet" href="assets/css/animate.min.css" media="screen,projection" />
+  <link rel="stylesheet" href="assets/libs/sweetalert/sweet-alert.css" media="screen,projection" />
+
+  <link rel="stylesheet" href="assets/libs/owl-carousel/owl.carousel.css" media="screen,projection" />
+  <link rel="stylesheet" href="assets/libs/owl-carousel/owl.transitions.css" media="screen,projection" />
+  <link rel="stylesheet" href="assets/libs/owl-carousel/owl.theme.css" media="screen,projection" />
+
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/zain.css">
+
+  <!-- Choose your default colors -->
+ <!--  <link rel="stylesheet" href="assets/css/colors/color1.css"> -->
+
+  <!-- <link rel="stylesheet" href="assets/css/colors/color2.css"> -->
+  <!-- <link rel="stylesheet" href="assets/css/colors/color3.css"> -->
+  <!-- <link rel="stylesheet" href="assets/css/colors/color4.css"> -->
+  <!-- <link rel="stylesheet" href="assets/css/colors/color5.css"> -->
+  <!-- <link rel="stylesheet" href="assets/css/colors/color6.css"> -->
+  <!-- <link rel="stylesheet" href="assets/css/colors/color7.css"> -->
+  <!-- <link rel="stylesheet" href="assets/css/colors/color8.css"> -->
+  <link rel="stylesheet" href="assets/css/colors/z-color.css">
+
+  <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+  <!-- Preloader --> 
+    <div id="preloader">
+      <div class="loader">
+            <svg class="circle-loader" height="50" width="50">
+              <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="6" stroke-miterlimit="10" />
+            </svg>
+        </div>    
+    </div><!--preloader end-->
+
+  <!-- Main Container -->
+  <main id="app" class="main-section">
+    <!-- header navigation start -->
+    <header id="navigation" class="root-sec white nav">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="nav-inner">
+              <nav class="primary-nav">
+                <div class="clearfix nav-wrapper">
+                  <a href="#home" class="left brand-logo menu-smooth-scroll" data-section="#home"><img class="logo_navbar" src="images/logo-holygon.png" alt="Holygon" >
+                  </a>
+                  <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+                  <!--<ul class="right static-menu">
+                    <li class="search-form-li">
+                      <a id="initSearchIcon" class=""><i class="mdi-action-search"></i> </a>
+                      <div class="search-form-wrap hide">
+                        <form action="#" class="">
+                          <input type="search" class="search">
+                          <button type="submit"><i class="mdi-action-search"></i>
+                          </button>
+                        </form>
+                      </div>
+                    </li>
+                    <li>
+                      <a class="dropdown-button blog-submenu-init" href="#!" data-activates="dropdown1">
+                        <i class="mdi-navigation-more-vert right"></i>
+                      </a>
+                    </li>
+                  </ul>-->
+                  <ul class="inline-menu side-nav" id="mobile-demo">
+
+                  <!-- Mini Profile // only visible in Tab and Mobile -->
+                    <li class="mobile-profile">
+                     <div class="profile-inner">
+                        <div class="pp-container">
+                            <img src="images/logo-holygon.png" alt="" class="mobile_logo">
+                        </div>
+                        <h3>Holygon</h3>
+                        <h5>Excellence Innovation Expertise</h5>
+                      </div>
+                    </li><!-- mini profile end-->
+
+
+                    <li><a href="#about" data-section="#about" class="menu-smooth-scroll"><i class="fa fa-user fa-fw"></i>About Us</a>
+                    </li>
+                    <li><a href="#resume" data-section="#resume" class="menu-smooth-scroll"><i class="fa fa-file-text fa-fw"></i>Skills</a>
+                    </li>
+                    <li><a href="#services" data-section="#services" class="menu-smooth-scroll"><i class="fa fa-users fa-fw"></i>Services</a>
+                    </li>
+                    <li><a href="#process" data-section="#process" class="menu-smooth-scroll"><i class="fa fa-users fa-fw"></i>Process</a>
+                    </li>
+                    <li><a href="#portfolio" data-section="#portfolio" class="menu-smooth-scroll"><i class="fa fa-briefcase fa-fw"></i>Portfolio</a>
+                    </li>
+                    <li><a href="#team" data-section="#team" class="menu-smooth-scroll"><i class="fa fa-users fa-fw"></i>Team</a>
+                    </li>
+                    <li><a href="#testimonial" data-section="#testimonial" class="menu-smooth-scroll"><i class="fa fa-comments fa-fw"></i>Testimonial</a>
+                    </li>
+                    <!--<li><a href="#blog" data-section="#blog" class="menu-smooth-scroll"><i class="fa fa-pencil fa-fw"></i>Blog</a>
+                    </li>-->
+                    <li><a href="#contact" data-section="#contact" class="menu-smooth-scroll"><i class="fa fa-paper-plane fa-fw"></i>Contact</a>
+                    </li>
+                  </ul>
+                  <!--<ul id="dropdown1" class="inline-menu submenu-ul dropdown-content">
+                    <li>Home</li>
+                    <li><a href="blog.html">All Blog</a>
+                    </li>
+                    <li><a href="blog-with-sidebar.html">Blog with Sidebar</a>
+                    </li>
+                    <li><a href="single.html">Single Blog</a>
+                    </li>
+                  </ul>-->
+
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- .container end -->
+    </header>
+    <!-- #header  navigation end -->
+
+    <!-- Home Section start -->
+    <section id="home" class="scroll-section root-sec grey lighten-5 home-wrap">
+      <div class="sec-overlay">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="home-inner">
+                  <div class="center-align home-content">
+                    <h1 class="home-title">
+                      We are 
+                    <div id="typed-strings">
+                        <p><em>Web</em> Developers</p>
+                        <p><em>Web</em> Designers</p>
+                        <p><em>App</em> Developers</p>
+                        <p><em>App</em> Designers</p>
+                        <p><em>Tech</em> Lovers</p>
+                        <p><em>Holygon</em></p>
+                        
+                    </div>
+                    <span id="typed"></span> </h1>
+                    <!--  <h2 class="home-subtitle">UX/UI Designer from Dhaka, Bangladesh</h2> -->
+                    <a href="#contact" class="hire-me-btn btn waves-effect waves-light btn-large brand-bg white-text regular-text">Contact Us <i class="mdi-content-send left"></i>
+                    </a>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- .container end -->
+        <div class="section-call-to-area">
+          <div class="container">
+            <div class="row">
+              <a href="#about" class="btn-floating btn-large button-middle call-to-about section-call-to-btn animated btn-up btn-hidden" data-section="#about">
+                <i class="mdi-navigation-expand-more"></i>
+              </a>
+            </div>
+          </div>
+          <!-- .container end -->
+        </div>
+      </div>
+    </section>
+    <!-- #home Section end -->
+
+    <!-- About Section start -->
+    <section id="about" class="scroll-section root-sec padd-tb-60 grey lighten-5 about-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="clearfix about-inner">
+
+            <div class="col-sm-12 col-md-4">
+              <div class="person-about">
+                <h3 class="about-subtitle">ABOUT US</h3>
+                <p id="holygon-text-justify">Holygon is comprised of a team of enthusiastic and genius programmers, designers and marketing executives providing best software solutions to the clients. High quality deliverables and customer satisfaction is our trademark through which we build premium business relationships with our clients. We provide high standard solutions for wide range of industries and domains. For attaining our services and getting in-depth details of our work feel free to contact us.</p>
+                <a class="waves-effect waves-light btn-large brand-bg white-text"><i class="mdi-content-archive left"></i> Download Coverletter</a>
+              </div>
+            </div>
+            <!-- about me description -->
+
+            <div class="col-sm-6 col-md-4 ">
+              <div class="person-img wow fadeIn" style="text-align: center;">
+                <img class="z-depth-0" src="images/trans-logo.png" alt="">
+              </div>
+            </div>
+            <!-- about me image -->
+
+            <div class="col-sm-6 col-md-4">
+              <div class="person-info">
+                <h3 class="about-subtitle">COMPANY INFORMATION</h3>
+                <h5><span>Company Name :</span> Holygon (Pvt.) Limited</h5>
+                <h5><span>Phone        :</span> 042 35784204</h5>
+                <h5><span>Email        :</span> contact@holygon.com</h5>
+                <h5><span>Address      :</span> Lahore, Pakistan</h5>
+              </div>
+
+              <div class="about-social">
+                <ul>
+                  <li>
+                    <a href="https://www.facebook.com/HolygonPvtLtd" class="btn-floating waves-effect waves-light white"><i class="fa fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/HolygonPvtLtd" class="btn-floating waves-effect waves-light white"><i class="fa fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="www.google.com" class="btn-floating waves-effect waves-light white"><i class="fa fa-google-plus"></i></a>
+                   </li>
+                  <li>
+                    <a href="https://www.linkedin.com/company/7787567" class="btn-floating waves-effect waves-light white"><i class="fa fa-linkedin"></i></a>
+                  </li>
+                  <li>
+                    <a href="#" class="btn-floating waves-effect waves-light white"><i class="fa fa-pinterest"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- about me info -->
+
+          </div>
+        </div>
+      </div>
+      <!-- .container end -->
+    </section>
+    <!-- #about Section end -->
+
+    <!-- Resume Section start -->
+    <section id="resume" class="scroll-section ">
+      <section id="skill" class="root-sec white skill-wrap">
+      <div class="sec-overlay">
+        <div class="container">
+          <div class="row">
+            <div class="clearfix skill-inner">
+              <div class="col-sm-12 col-md-3">
+                <div class="skill-left">
+                  <h2 class="title">Skills</h2>
+                  <p id="holygon-text-justify" class="regular-text">Our team is fully equipped with cross-domain technical skills responsible to provide best business and IT development and deployment solutions following the dynamic trends of market and industry.</p>
+                </div>
+              </div>
+
+              <!-- skills container -->
+              <div class="col-sm-12 col-md-6 col-md-offset-1">
+                <div class="skill-right">
+                  <div id="skillSlider" class="clearfix skill-graph">
+
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="100%">
+                            <div class="skill-visiable">
+                              <span id="rubyonrails" class="skill-title" >Ruby on Rails</span>
+                              <div class="hr-wrap">
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">100%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
+
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="60%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">Photoshopt</span>
+                              <div class="hr-wrap">
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">60%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
+
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="90%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">Android</span>
+                              <div class="hr-wrap">
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">90%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
+
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="60%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">Javascript</span>
+                              <div class="hr-wrap">
+
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">60%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
+
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="85%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">Node js</span>
+                              <div class="hr-wrap">
+
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">85%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
+
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="60%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">CSS</span>
+                              <div class="hr-wrap">
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">60%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
+
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="75%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">Illustrator</span>
+                              <div class="hr-wrap">
+
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">75%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
+
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="60%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">Wordpress</span>
+                              <div class="hr-wrap">
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">60%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
+
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="65%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">HTML</span>
+                              <div class="hr-wrap">
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">65%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
+
+                    <!-- single skill -->
+                    <!--<div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="60%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">JavaScript</span>
+                              <div class="hr-wrap">
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">60%</span>
+                        </div>
+                      </div>
+                    </div>-->
+                    <!-- /single skill-->
+
+                    <!-- single skill -->
+                  </div>
+                </div>
+              </div>
+              <!-- /skills container -->
+            </div>
+          </div>
+          <div class="btn-wrapp skl-ctrl">
+            <a class="btn-floating waves-effect waves-light btn-large brand-bg white-text go go-left"><i class="mdi-navigation-chevron-left "></i></a>
+            <a class="btn-floating waves-effect waves-light btn-large brand-bg white-text go go-right"><i class="mdi-navigation-chevron-right "></i></a>
+          </div>
+        </div>
+      </div>
+        <!-- .container end -->
+      </section>
+
+      <section id="services" class="root-sec padd-tb-120 brand-bg experience-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="experience-inner">
+              <div class="col-sm-12 col-md-10 card-box-wrap">
+                <div class="row">
+                  <div class="clearfix section-head experience-text">
+                    <div class="col-sm-12">
+                      <h2 class="title">SERVICES</h2>
+                      <p class="regular-text">We provide full range of high quality technological services for your business soutions.</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="overflow-hidden">
+                      <div class="row">
+                        <div id="experienceSlider" class="clearfix card-element-wrapper">
+                          <div class="col-sm-4 cold-xs-12 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
+                            <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <!--<h2 class="left-align card-title-top">January 2014 - Present</h2>-->
+                                <div class="valign-wrapper card-img-wrap">
+                                  <img class="activator" src="http://www.innovationmanagement.se/wp-content/uploads/2012/11/where-the-best-and-worst-ideas-come-from.jpeg" alt="">
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator brand-text">Generating Ideas<i class="mdi-navigation-more-vert right"></i></span>
+                                <!--<p>Apple.inc</p>-->
+                              </div>
+                              <div class="card-reveal">
+                                <div class="rev-title-wrap">
+                                  <span class="card-title activator brand-text">Generating Ideas<<i class="mdi-navigation-close right"></i></span>
+                                  <!--<p>Apple.inc</p>-->
+                                </div>
+                                <p class="rev-content">
+                                  Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing. 
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 cold-xs-12 single-card-box wow fadeInUpSmall" data-wow-delay=".2s" data-wow-duration=".7s">
+                            <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <!--<h2 class="left-align card-title-top">January 2014 - Present</h2>-->
+                                <div class="valign-wrapper card-img-wrap">
+                                  <img class="activator" src="https://d13yacurqjgara.cloudfront.net/users/124059/screenshots/1882168/shot_1x.png" alt="">
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator brand-text">Prototype Model<i class="mdi-navigation-more-vert right"></i></span>
+                                <!--<p>Android One</p>-->
+                              </div>
+                              <div class="card-reveal">
+                                <div class="rev-title-wrap">
+                                  <span class="card-title activator brand-text">Prototype Model<i class="mdi-navigation-close right"></i></span>
+                                  <!--<p>Android One</p>-->
+                                </div>
+                                <p class="rev-content">
+                                  Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing. 
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 cold-xs-12 single-card-box wow fadeInUpSmall" data-wow-delay=".4s" data-wow-duration=".7s">
+                            <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <!--<h2 class="left-align card-title-top">January 2014 - Present</h2>-->
+                                <div class="valign-wrapper card-img-wrap">
+                                  <img class="activator" src="http://cf.ltkcdn.net/web-design/images/std/37814-400x300-Html_cool_code.jpg" alt="">
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator brand-text">Design And Code<i class="mdi-navigation-more-vert right"></i></span>
+                                <!--<p>Android One</p>-->
+                              </div>
+                              <div class="card-reveal">
+                                <div class="rev-title-wrap">
+                                  <span class="card-title activator brand-text">Design And Code<i class="mdi-navigation-close right"></i></span>
+                                  <!--<p>Android One</p>-->
+                                </div>
+                                <p class="rev-content">
+                                  Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing. 
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 cold-xs-12 single-card-box">
+                            <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <!--<h2 class="left-align card-title-top">January 2014 - Present</h2>-->
+                                <div class="valign-wrapper card-img-wrap">
+                                  <img class="activator" src="http://www.pressebox.com/uploads/thumbnail/width/400/height/320/id/761719.jpg" alt="">
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator brand-text">Launching And Monitoring<i class="mdi-navigation-more-vert right"></i></span>
+                                <!--<p>Windows Phone</p>-->
+                              </div>
+                              <div class="card-reveal">
+                                <div class="rev-title-wrap">
+                                  <span class="card-title activator brand-text">Launching And Monitoring<i class="mdi-navigation-close right"></i></span>
+                                  <!--<p>Windows Phone</p>-->
+                                </div>
+                                <p class="rev-content">
+                                  Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing. 
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <!--<div class="col-sm-4 cold-xs-12 single-card-box">
+                            <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <h2 class="left-align card-title-top">January 2014 - Present</h2>
+                                <div class="valign-wrapper card-img-wrap">
+                                  <img class="activator" src="http://placehold.it/400x300" alt="">
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator brand-text">UX/UI Designer<i class="mdi-navigation-more-vert right"></i></span>
+                                <p>Windows Phone</p>
+                              </div>
+                              <div class="card-reveal">
+                                <div class="rev-title-wrap">
+                                  <span class="card-title activator brand-text">UX/UI Designer<i class="mdi-navigation-close right"></i></span>
+                                  <p>Windows Phone</p>
+                                </div>
+                                <p class="rev-content">
+                                  Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing. 
+                                </p>
+                              </div>
+                            </div>
+                          </div>-->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="btn-wrapp exp-ctrl">
+                <a class="btn-floating waves-effect waves-light btn-large white go go-left"><i class="mdi-navigation-chevron-left brand-text"></i></a>
+                <a class="btn-floating waves-effect waves-light btn-large white go go-right"><i class="mdi-navigation-chevron-right brand-text"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="process" class="root-sec grey lighten-5 padd-tb-120 education-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="education-inner">
+              <div class="col-sm-12 col-md-10 card-box-wrap">
+                <div class="row">
+                  <div class="clearfix section-head education-text">
+                    <div class="col-sm-12">
+                      <h2 class="title">Process</h2>
+                      <p class="regular-text">Our services spans from planning to the succesful deployment of a business solution.</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="overflow-hidden">
+                      <div class="row">
+                        <div id="educationSlider" class="clearfix card-element-wrapper">
+
+                        <!-- single education -->
+                          <div class="col-sm-4 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
+                            <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <!--<h2 class="left-align card-title-top">20011 - 2012</h2>-->
+                                <div class="card-img-wrap">
+                                  <img class="activator" src="http://placehold.it/400x300" alt="">
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator brand-text">Planning<i class="mdi-navigation-more-vert right"></i></span>
+                                <!--<p>Oxford University</p>-->
+                              </div>
+                              <!-- Reveal content-->
+                              <div class="card-reveal">
+                                <div class="rev-title-wrap">
+                                  <span class="card-title activator brand-text">Planning<i class="mdi-navigation-close right"></i></span>
+                                  <!--<p>Oxford University</p>-->
+                                </div>
+                                <p class="rev-content">
+                                  At Holygon, we plan until all stakeholders start believing in the project. That is what triggers the process to give us efficient results.
+                                </p>
+                              </div>
+                            </div>
+                          </div> <!-- single education end -->
+
+                          <!-- single education -->
+                          <div class="col-sm-4 single-card-box wow fadeInUpSmall" data-wow-delay=".2s" data-wow-duration=".7s">
+                            <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <!--<h2 class="left-align card-title-top">2005 - 2007</h2>-->
+                                <div class="card-img-wrap">
+                                  <img class="activator" src="http://www.noupe.com/wp-content/uploads/trans/wp-content/uploads/2010/12/logodesignprocess42.jpg" alt="">
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator brand-text">Designing<i class="mdi-navigation-more-vert right"></i></span>
+                                <!--<p>Oxford University</p>-->
+                              </div>
+                              <div class="card-reveal">
+                                <div class="rev-title-wrap">
+                                  <span class="card-title activator brand-text">Designing<i class="mdi-navigation-close right"></i></span>
+                                  <!--<p>Oxford University</p>-->
+                                </div>
+                                <p class="rev-content">
+                                  Be it your corporate identity, your website or the mobile application layout, our creative team makes sure that our designs strengthen your brand positioning. 
+                                </p>
+                              </div>
+                            </div>
+                          </div> <!-- single education -->
+
+                        <!-- single education -->
+                          <div class="col-sm-4 single-card-box wow fadeInUpSmall" data-wow-delay=".4s" data-wow-duration=".7s">
+                            <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <!--<h2 class="left-align card-title-top">2005 - 2007</h2>-->
+                                <div class="card-img-wrap">
+                                  <img class="activator" src="http://placehold.it/400x300" alt="">
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator brand-text">Development<i class="mdi-navigation-more-vert right"></i></span>
+                                <!--<p>Oxford College</p>-->
+                              </div>
+                              <div class="card-reveal">
+                                <div class="rev-title-wrap">
+                                  <span class="card-title activator brand-text">Development<i class="mdi-navigation-close right"></i></span>
+                                  <!--<p>Oxford College</p>-->
+                                </div>
+                                <p class="rev-content">
+                                  With an in-house team fully equipped with the latest development tools and knowledge, we provide customized solutions to your needs.g. 
+                                </p>
+                              </div>
+                            </div>
+                          </div> <!-- single education -->
+
+                        <!-- single education -->
+                          <div class="col-sm-4 single-card-box">
+                            <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <!--<h2 class="left-align card-title-top">1995 - 2005</h2>-->
+                                <div class="card-img-wrap">
+                                  <img class="activator" src="http://placehold.it/400x300" alt="">
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator brand-text">Integration<i class="mdi-navigation-more-vert right"></i></span>
+                                <!--<p>Oxford School</p>-->
+                              </div>
+                              <div class="card-reveal">
+                                <div class="rev-title-wrap">
+                                  <span class="card-title activator brand-text">Integration<i class="mdi-navigation-close right"></i></span>
+                                  <!--<p>Oxford School</p>-->
+                                </div>
+                                <p class="rev-content">
+                                  Where else to look for when Holygon is here to provide integrated solutions for your business saving not only your cost but efforts as well?. 
+                                </p>
+                              </div>
+                            </div>
+                          </div> <!-- single education -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="btn-wrapp edu-ctrl">
+                <a class="btn-floating waves-effect waves-light btn-large brand-bg go go-left"><i class="mdi-navigation-chevron-left"></i></a>
+                <a class="btn-floating waves-effect waves-light btn-large brand-bg go go-right"><i class="mdi-navigation-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- #resume Section end -->
+
+    <!-- Portfolio Section start -->
+    <section id="portfolio" class="scroll-section root-sec white portfolio-wrap">
+      <div class="padd-tb-120 brand-bg portfolio-top">
+        <div class="portfolio-inner">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <h2 class="title">PORTFOLIO</h2>
+                <ul class="inline-menu clearfix portfolio-category" id="portfolio-msnry-sort">
+                  <li class="active"><a href="#" data-target="*">All</a>
+                  </li>
+                  <li><a href="#" data-target=".category-1">Art</a>
+                  </li>
+                  <li><a href="#" data-target=".category-2">Accessories</a>
+                  </li>
+                  <li><a href="#" data-target=".category-3">Design</a>
+                  </li>
+                  <li><a href="#" data-target=".category-4">Fashion</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- .container end -->
+      </div>
+      <div id="portfolioModal" class="modal white">
+        <div class="model-img"></div>
+        <div class="modal-content">
+          <h2 class="title">Lorem ipsum dolor sit fugit dolore.</h2>
+          <p class="m-content">A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior.</p>
+        </div>
+
+        <div class="modal-footer">
+          <a href="#" target="_blank" class="waves-effect btn-flat brand-text modal-action">Live Demo</a>
+          <a href="#" class="waves-effect btn-flat brand-text modal-action modal-close">cancel</a>
+        </div>
+      </div>
+
+      <div class="portfolio-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <ul class="clearfix protfolio-item" id="protfolio-msnry">
+              
+              <!-- Single Portfolio-->
+                <li class="single-port-item category-1 category-3">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="http://placehold.it/650x350" data-title="Your awesome portfolio title" data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#"> <!-- Portfolio pop-up content-->
+                    <div class="protfolio-image">
+                      <img src="http://placehold.it/390x280" alt="portfolio"> <!-- portfolio thumbnail-->
+                      <div class="protfolio-content waves-effect waves-block waves-light">
+                        <div class="protfolio-content__inner">
+                          <h2 class="p-title">item name</h2>
+                        </div>
+                      </div>
+                      <div class="p-overlay"></div>
+                    </div>
+                  </a>
+                </li>
+                <!--/ single portfolio -->
+
+                <!-- Single Portfolio-->
+                <li class="single-port-item category-2 category-1">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="http://placehold.it/650x350" data-title="Your awesome portfolio title" data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
+                    <div class="protfolio-image">
+                      <img src="http://placehold.it/390x280" alt="portfolio">
+                      <div class="protfolio-content waves-effect waves-block waves-light">
+                        <div class="protfolio-content__inner">
+                          <h2 class="p-title">item name</h2>
+                        </div>
+                      </div>
+                      <div class="p-overlay"></div>
+                    </div>
+                  </a>
+                </li>
+                <!--/ single portfolio -->
+
+                <!-- Single Portfolio-->
+                <li class="single-port-item category-1 category-2">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="http://placehold.it/650x350" data-title="Your awesome portfolio title" data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
+                    <div class="protfolio-image">
+                      <img src="http://placehold.it/390x280" alt="portfolio">
+                      <div class="protfolio-content waves-effect waves-block waves-light">
+                        <div class="protfolio-content__inner">
+                          <h2 class="p-title">item name</h2>
+                        </div>
+                      </div>
+                      <div class="p-overlay"></div>
+                    </div>
+                  </a>
+                </li>
+                <!--/ single portfolio -->
+
+                <!-- Single Portfolio-->
+                <li class="single-port-item category-3">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="http://placehold.it/650x350" data-title="Your awesome portfolio title" data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
+                    <div class="protfolio-image">
+                      <img src="http://placehold.it/390x280" alt="portfolio">
+                      <div class="protfolio-content waves-effect waves-block waves-light">
+                        <div class="protfolio-content__inner">
+                          <h2 class="p-title">item name</h2>
+                        </div>
+                      </div>
+                      <div class="p-overlay"></div>
+                    </div>
+                  </a>
+                </li>
+                <!--/ single portfolio -->
+
+                <!-- Single Portfolio-->
+                <li class="single-port-item category-1 category-3 category-4">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="http://placehold.it/650x350" data-title="Your awesome portfolio title" data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
+                    <div class="protfolio-image">
+                      <img src="http://placehold.it/390x280" alt="portfolio">
+                      <div class="protfolio-content waves-effect waves-block waves-light">
+                        <div class="protfolio-content__inner">
+                          <h2 class="p-title">item name</h2>
+                        </div>
+                      </div>
+                      <div class="p-overlay"></div>
+                    </div>
+                  </a>
+                </li>
+                <!--/ single portfolio -->
+
+                <!-- Single Portfolio-->
+                <li class="single-port-item category-2 category-4">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="http://placehold.it/650x350" data-title="Your awesome portfolio title" data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
+                    <div class="protfolio-image">
+                      <img src="http://placehold.it/390x280" alt="portfolio">
+                      <div class="protfolio-content waves-effect waves-block waves-light">
+                        <div class="protfolio-content__inner">
+                          <h2 class="p-title">item name</h2>
+                        </div>
+                      </div>
+                      <div class="p-overlay"></div>
+                    </div>
+                  </a>
+                </li>
+                <!--/ single portfolio -->
+
+              </ul>
+              <!-- portfolio load more button-->
+              <a id="portfolio-item-loader" href="#" class="btn-floating btn-large waves-effect waves-light brand-bg"><i class="mdi-content-add"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- #portfolio Section end -->
+
+    <!-- Team Section end -->
+    <section id="team" class="scroll-section root-sec brand-bg padd-tb-120 team-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="clearfix team-inner">
+            <div class="col-sm-12 col-md-10 card-box-wrap">
+              <div class="row">
+                <div class="clearfix section-head team-text">
+                  <div class="col-sm-12">
+                    <h2 class="title">Team</h2>
+                    <p class="regular-text">Our Team combines a unique combination of creativity, experience, knowledge but most of all a shared 'can do' attitude to help clients get the very best support, advice and project management to achieve business goals.</p>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="overflow-hidden">
+                    <div class="row">
+                      <div id="teamSlider" class="clearfix card-element-wrapper">
+                        <div class="col-sm-4 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="http://placehold.it/300x280" alt="">
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator brand-text">Ameer Hamza<i class="mdi-navigation-more-vert right"></i></span>
+                              <p>Managing Director</p>
+                            </div>
+                            <!--<div class="card-reveal">
+                              <div class="rev-title-wrap">
+                                <span class="card-title activator brand-text">Jonh Doe<i class="mdi-navigation-close right"></i></span>
+                                <p>UX UI Designer</p>
+                              </div>
+                              <p class="rev-content">
+                                Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing. 
+                              </p>
+                            </div>-->
+                          </div>
+                        </div> <!-- single team member -->
+                        <div class="col-sm-4 single-card-box wow fadeInUpSmall" data-wow-delay=".2s" data-wow-duration=".7s">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="http://placehold.it/300x280" alt="">
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator brand-text">Zain Bin Zafar<i class="mdi-navigation-more-vert right"></i></span>
+                              <p>Director Operations</p>
+                            </div>
+                            <!--<div class="card-reveal">
+                              <div class="rev-title-wrap">
+                                <span class="card-title activator brand-text">Letizia Toye<i class="mdi-navigation-close right"></i></span>
+                                <p>Front End Developer</p>
+                              </div>
+                              <p class="rev-content">
+                                Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing. 
+                              </p>
+                            </div>-->
+                          </div>
+                        </div> <!-- single team member -->
+                        <div class="col-sm-4 single-card-box wow fadeInUpSmall" data-wow-delay=".4s" data-wow-duration=".7s">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="http://placehold.it/300x280" alt="">
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator brand-text">Murtaza Ali Baig<i class="mdi-navigation-more-vert right"></i></span>
+                              <p>Director HR/PR</p>
+                            </div>
+                            <!--<div class="card-reveal">
+                              <div class="rev-title-wrap">
+                                <span class="card-title activator brand-text">Letizia Toye<i class="mdi-navigation-close right"></i></span>
+                                <p>Front End Developer</p>
+                              </div>
+                              <p class="rev-content">
+                                Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing. 
+                              </p>
+                            </div>-->
+                          </div>
+                        </div> <!-- single team member -->
+                        <div class="col-sm-4 single-card-box">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="http://placehold.it/300x280" alt="">
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator brand-text">Muhammad Tayyab<i class="mdi-navigation-more-vert right"></i></span>
+                              <p>Software Engineer</p>
+                            </div>
+                            <!--<div class="card-reveal">
+                              <div class="rev-title-wrap">
+                                <span class="card-title activator brand-text">Letizia Toye<i class="mdi-navigation-close right"></i></span>
+                                <p>Front End Developer</p>
+                              </div>
+                              <p class="rev-content">
+                                Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing. 
+                              </p>
+                            </div>-->
+                          </div>
+                        </div> <!-- single team member -->
+                        <div class="col-sm-4 single-card-box">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="http://placehold.it/300x280" alt="">
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator brand-text">Haider Khan<i class="mdi-navigation-more-vert right"></i></span>
+                              <p>Software Engineer</p>
+                            </div>
+                            <!--<div class="card-reveal">
+                              <div class="rev-title-wrap">
+                                <span class="card-title activator brand-text">Tandi Battle<i class="mdi-navigation-close right"></i></span>
+                                <p>Team Manager</p>
+                              </div>
+                              <p class="rev-content">
+                                Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing. 
+                              </p>
+                            </div>-->
+                          </div>
+                        </div> <!-- single team member -->
+                        <!--<div class="col-sm-4 single-card-box">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="http://placehold.it/300x280" alt="">
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator brand-text">Tandi Battle<i class="mdi-navigation-more-vert right"></i></span>
+                              <p>Team Manager</p>
+                            </div>
+                            <div class="card-reveal">
+                              <div class="rev-title-wrap">
+                                <span class="card-title activator brand-text">Tandi Battle<i class="mdi-navigation-close right"></i></span>
+                                <p>Team Manager</p>
+                              </div>
+                              <p class="rev-content">
+                                Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing. 
+                              </p>
+                            </div>
+                          </div>
+                        </div> --><!-- single team member -->
+                      </div> <!-- #teamSlider end -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="btn-wrapp tmu-ctrl">
+              <a class="btn-floating waves-effect waves-light btn-large white go go-left"><i class="mdi-navigation-chevron-left brand-text"></i></a>
+              <a class="btn-floating waves-effect waves-light btn-large white go go-right"><i class="mdi-navigation-chevron-right brand-text"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- .container -->
+    </section>
+    <!-- #team Section end -->
+
+    <!-- Funfacts Section end -->
+    <section id="funfacts" class="root-sec grey lighten-5 funfact-wrap">
+    <div class="sec-inner padd-tb-120">
+      <div class="container">
+        <div class="row">
+          <div class="funfact-inner">
+            <div class="col-sm-4 funfact-box">
+              <div class="center-align card-panel white">
+                <div class="feature-box-outer">
+                  <div class="funfact-box-inner">
+                    <div class="clearfix ">
+                      <i class="mdi-editor-insert-emoticon"></i>
+                      <span class="num countNumb">150</span>
+                    </div>
+                    <div class="context">Happy clients</div>
+                  </div>
+                </div>
+              </div>
+            </div> <!-- ./single fun fact box -->
+            <div class="col-sm-4 funfact-box">
+              <div class="center-align card-panel white">
+                <div class="feature-box-outer">
+                  <div class="funfact-box-inner">
+                    <div class="clearfix ">
+                      <i class="mdi-action-wallet-travel"></i>
+                      <span class="num countNumb">230</span>
+                    </div>
+                    <div class="context">Project Completed</div>
+                  </div>
+                </div>
+              </div>
+            </div> <!-- ./single fun fact box -->
+            <div class="col-sm-4 funfact-box">
+              <div class="center-align card-panel white">
+                <div class="feature-box-outer">
+                  <div class="funfact-box-inner">
+                    <div class="clearfix ">
+                      <i class="mdi-action-wallet-giftcard"></i>
+                      <span class="num countNumb">79</span>
+                    </div>
+                    <div class="context">Award Won</div>
+                  </div>
+                </div>
+              </div>
+            </div> <!-- ./single fun fact box -->
+          </div>
+        </div>
+
+      </div>  <!-- .container end -->
+    </div>
+    </section>
+    <!-- #funfacts Section end -->
+
+    <!-- Testimonial Section end -->
+    <section id="testimonial" class="scroll-section root-sec brand-bg padd-tb-120 testimonial-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="testimonial-inner">
+            <div class="col-sm-12 col-md-10 card-box-wrap">
+              <div class="row">
+                <div class="clearfix section-head testimonial-text">
+                  <div class="col-sm-12">
+                    <h2 class="title">TESTIMONAL</h2>
+                    <p class="regular-text">At Holygon we value our clients and customers and provide them excellent services. Here is a glance of some of the reviews that our valued clients have provided as a feedback.</p>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="overflow-hidden">
+                    <div class="row">
+                      <div id="testimonialSlider" class="clearfix card-element-wrapper">
+                        <div class="col-sm-6 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAZDAAAAJDhmNTkyOTg1LTU3MTEtNGYxOS04ZmRjLTY3MTFiYjcyNWQ1MA.png" alt="">
+                                <p class="saying-about">"Available to do the work. Prompt. Willing to accommodate. Will listen to instructions carefully and diligently complete the work."</p>
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator brand-text">Ahmed Ali - </span>
+                              <a href="#">Client</a>
+                            </div>
+                          </div>
+                        </div> <!-- ./single testimonial box -->
+                        <div class="col-sm-6 single-card-box wow fadeInUpSmall" data-wow-delay=".2s" data-wow-duration=".7s">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="http://www.iconsfind.com/wp-content/uploads/2015/08/20150831_55e46b1f4a412.png" alt="">
+                                <p class="saying-about">"A pleasure to deal with, would highly recommend. great communication! followed instruction perfectly. will be definitely rehiring in the future."</p>
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator brand-text">Eric Fitzgerald - </span>
+                              <a href="#">Client</a>
+                            </div>
+                          </div>
+                        </div> <!-- ./single testimonial box -->
+                        <div class="col-sm-6 single-card-box">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="http://dotaznicek.sk/web/wp-content/uploads/2015/08/malecostume-5121.png" alt="">
+                                <p class="saying-about">"Job well done. very responsive and easy to communicate. work done is superb and well executed. will hire again."</p>
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator brand-text">Timothy - </span>
+                              <a href="#">Client</a>
+                            </div>
+                          </div>
+                        </div> <!-- ./single testimonial box -->
+                        <div class="col-sm-6 single-card-box">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="http://lukestevensdesign.com/assets/images/icons/avatar.svg" alt="">
+                                <p class="saying-about">"Great developers, always there and did best."</p>
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator brand-text">Anonymous - </span>
+                              <a href="#">AppLogix Lab</a>
+                            </div>
+                          </div>
+                        </div> <!-- ./single testimonial box -->
+                        <div class="col-sm-6 single-card-box">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/person-flat.png" alt="">
+                                <p class="saying-about">"Zain is an excellent software engineer. He is motivated and efficient. I will employ him again on similar tasks and can recommend him without hesitation."</p>
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator brand-text">Andrew Fielding - </span>
+                              <a href="#">Client</a>
+                            </div>
+                          </div>
+                        </div> <!-- ./single testimonial box -->
+                      </div> <!-- #testimonialSlider end -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="btn-wrapp tmo-ctrl">
+              <a class="btn-floating waves-effect waves-light btn-large white go go-left"><i class="mdi-navigation-chevron-left brand-text"></i></a>
+              <a class="btn-floating waves-effect waves-light btn-large white go go-right"><i class="mdi-navigation-chevron-right brand-text"></i></a>
+            </div>
+          </div>
+        </div>
+      </div> <!-- ./container end -->
+    </section>
+    <!-- #testimonial Section end -->
+
+    <!-- Blog Section end -->
+    <!--<section id="blog" class="scroll-section root-sec grey lighten-5 padd-tb-120 blog-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="blog-inner">
+            <div class="col-sm-12 card-box-wrap">
+              <div class="row">
+                <div class="clearfix section-head blog-text">
+                  <div class="col-sm-10">
+                    <h2 class="title">Blog</h2>
+                    <p class="regular-text">A Web page that serves as a publicly accessible personal journal for an individual. Typically updated daily, blogs often reflect the personality of the author.</p>
+                  </div>
+                </div>
+                <div class="clearfix card-element-wrapper" id="blog-posts">
+                  <article class="col-sm-6 col-md-4 single-card-box single-post">
+                    <div class="card wow fadeInUpSmall" data-wow-duration=".7s">
+                      <div class="card-image">
+                        <div class="card-img-wrap">
+                          <div class="blog-post-thumb waves-effect waves-block waves-light">
+                            <a href="single.html"><img class="activator" src="http://placehold.it/350x200" alt="">
+                            </a>
+                          </div>
+                          <div class="post-body">
+                            <a href="single.html" class="post-title-link brand-text"><h2 class="post-title">Awesome Post Title</h2></a>
+                            <p class="post-content">In consectetuer turpis ut velit. Sed lectus. Ut varius tincidunt libero. Vivamus euismod mauris. Vestibulum fringilla pede sit amet augue. Ut varius tincidunt libero. Pellentesque dapibus hendrerit tortor. </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="clearfix card-content">
+                        <a href="#" class="left js-favorite" title="Love this"><i class="mdi-action-favorite"></i><span class="numb">15</span></a>
+                        <a href="single.html" class="brand-text right waves-effect">Read More</a>
+                      </div>
+                    </div>
+                  </article>--> 
+                  <!-- ./single blog post end -->
+                  <!--<article class="col-sm-6 col-md-4  single-card-box single-post">
+                    <div class="card wow fadeInUpSmall" data-wow-delay=".2s" data-wow-duration=".7s">
+                      <div class="card-image">
+                        <div class="card-img-wrap">
+                          <div class="blog-post-thumb waves-effect waves-block waves-light">
+                            <a href="single.html"><img class="activator" src="http://placehold.it/350x200" alt="">
+                            </a>
+                          </div>
+                          <div class="post-body">
+                            <a href="single.html" class="post-title-link brand-text"><h2 class="post-title">An Image Post</h2></a>
+                            <p class="post-content">In consectetuer turpis ut velit. Sed lectus. Ut varius tincidunt libero. Vivamus euismod mauris. Vestibulum fringilla pede sit amet augue. Ut varius tincidunt libero. Pellentesque dapibus hendrerit tortor. </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="clearfix card-content">
+                        <a href="#" class="left js-favorite active" title="Love this"><i class="mdi-action-favorite"></i><span class="numb">23</span></a>
+                        <a href="single.html" class="brand-text right waves-effect">Read More</a>
+                      </div>
+                    </div>
+                  </article> -->
+                  <!-- ./single blog post end -->
+                  <!--<article class="col-sm-6 col-md-4 single-card-box single-post">
+                    <div class="card wow fadeInUpSmall" data-wow-delay=".4s" data-wow-duration=".7s">
+                      <div class="card-image">
+                        <div class="card-img-wrap">
+                          <div class="blog-post-thumb waves-effect waves-block waves-light">
+                            <a href="single.html"><img class="activator" src="http://placehold.it/350x200" alt="">
+                            </a>
+                          </div>
+                          <div class="post-body">
+                            <a href="single.html" class="post-title-link brand-text"><h2 class="post-title">Another Image Post</h2></a>
+                            <p class="post-content">In consectetuer turpis ut velit. Sed lectus. Ut varius tincidunt libero. Vivamus euismod mauris. Vestibulum fringilla pede sit amet augue. Ut varius tincidunt libero. Pellentesque dapibus hendrerit tortor. </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="clearfix card-content">
+                        <a href="#" class="left js-favorite" title="Love this"><i class="mdi-action-favorite"></i><span class="numb">17</span></a>
+                        <a href="single.html" class="brand-text right waves-effect">Read More</a>
+                      </div>
+                    </div>
+                  </article>--> <!-- ./single blog post end -->
+                <!--</div>
+                <div class="clearfix left-align">
+                  <div class="col-sm-12">
+                    <a href="blog.html" class="waves-effect waves-light btn-large load-more">See More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>--> <!-- ./container -->
+    <!--</section>-->
+    <!-- #blog Section end -->
+
+    <!-- Contact Section end -->
+    <section id="contact" class="scroll-section root-sec brand-bg padd-tb-120 contact-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="contact-inner">
+            <div class="col-sm-12 card-box-wrap">
+              <div class="row">
+                <div class="clearfix section-head contact-text">
+                  <div class="col-sm-12">
+                    <h2 class="title">Contact</h2>
+                    <p class="regular-text">Office#2, 4th Floor, Diamond Tower, Liberty Market, Gulberg 3 </p>
+                    <ul class="clearfix contact-info">
+                      <li><a href="">042 35784204</a>
+                      </li>
+                      <li><a href="">contact@holygon.com</a>
+                      </li>
+                      <li><a href="">www.holygon.com</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div> <!-- contact text end -->
+
+                <div class="clearfix contact-form">
+
+                <!-- Map Start -->
+                  <div class="col-sm-7">
+                    <div class="map-wrapper">
+                      <div id="map"></div>
+                    </div>
+                  </div> <!-- Map end -->
+
+                <!-- Contact Form start -->
+                  <div class="col-sm-5">
+                    <div class="clearfix card-panel grey lighten-5 cform-wrapper">
+                      <form action="#" id="contactForm" novalidate>
+                        <div class="input-field">
+                          <input id="contact_name" type="text" name="contactName" class="validate input-box">
+                          <label for="contact_name" class="input-label">Name</label>
+                        </div>
+                        <div class="input-field">
+                          <input id="email" type="email" name="contactEmail" class="validate input-box">
+                          <label for="email" class="input-label">Email</label>
+                        </div>
+                        <div class="input-field">
+                          <input id="subject" type="text" name="contactSubject" class="validate input-box">
+                          <label for="subject" class="input-label">Subject</label>
+                        </div>
+                        <div class="input-field textarea-input">
+                          <textarea id="textarea1" name="contactMessage" class="validate materialize-textarea" style="height: 22px;"></textarea>
+                          <label for="textarea1" class="input-label">Message</label>
+                        </div>
+                        <div class="input-field submit-wrap clearfix">
+                          <button type="submit" class="left waves-effect btn-flat brand-text submit-btn">send message</button>
+                          <div class="right form-loader-area">
+                            <svg class="circular size-20" height="20" width="20">
+                              <circle class="path" cx="10" cy="10" r="7" fill="none" stroke-width="3" stroke-miterlimit="10" />
+                            </svg>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div> <!-- ./contact form end -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- ./container end -->
+      <div class="section-call-to-area">
+        <div class="container">
+          <div class="row">
+            <a href="#home" class="btn-floating btn-large button-middle call-to-home section-call-to-btn animated btn-up btn-hidden" data-section="#home">
+              <i class="mdi-navigation-expand-less"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- #contact Section end -->
+
+    <!-- Footer Section end -->
+    <footer id="footer" class="root-sec white root-sec footer-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="clearfix footer-inner">
+              <ul class="left social-icons">
+                <li><a href="#" class="tooltips tooltipped facebook" data-position="top" data-delay="50" data-tooltip="Facebook"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li><a href="#" class="tooltips tooltipped linkedin" data-position="top" data-delay="50" data-tooltip="Linkdin"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li><a href="#" class="tooltips tooltipped twitter" data-position="top" data-delay="50" data-tooltip="Twitter"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li><a href="#" class="tooltips tooltipped google-plus" data-position="top" data-delay="50" data-tooltip="Google Plus"><i class="fa fa-google-plus"></i></a>
+                </li>
+                <li><a href="#" class="tooltips tooltipped dribbble" data-position="top" data-delay="50" data-tooltip="Dribbble"><i class="fa fa-dribbble"></i></a>
+                </li>
+                <li><a href="#" class="tooltips tooltipped behance" data-position="top" data-delay="50" data-tooltip="Behance"><i class="fa fa-behance"></i></a>
+                </li>
+              </ul> <!-- ./social icons end -->
+              <div class="right copyright">
+                <p>Holygon (Pvt.) Limited &copy; All Rights Reserved</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- ./container end-->
+    </footer>
+    <!-- #footer end -->
+
+  </main>
+  <!-- Main Container end-->
+
+
+  <!-- JavaScripts -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="assets/js/jquery.easing.1.3.js"></script>
+  <script src="assets/js/detectmobilebrowser.js"></script>
+  <script src="assets/js/isotope.pkgd.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/waypoints.js"></script>
+  <script src="assets/js/jquery.counterup.min.js"></script>
+  <script src="assets/js/jquery.nicescroll.min.js"></script>
+  <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>
+  <script src="assets/js/gmaps.js"></script>
+  <script src="assets/libs/owl-carousel/owl.carousel.min.js"></script>
+  <script src="assets/libs/materialize/js/materialize.min.js"></script>
+  <script src="assets/libs/jwplayer/jwplayer.js"></script>
+  <script src="assets/libs/sweetalert/sweet-alert.min.js"></script>
+  <script src="assets/js/common.js"></script>
+
+  <!-- I am Zain And I am editing this now -->
+
+   <script src="assets/js/typed.js"></script>
+   <script src="assets/js/zain.js"></script>
+
+
+
+
+   <!-- This is end of editing by Zain -->
+
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

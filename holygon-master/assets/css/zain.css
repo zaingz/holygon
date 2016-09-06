@@ -1,0 +1,96 @@
+.typed-cursor{
+    opacity: 1;
+    color: white !important;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+/*My own css*/
+
+.home-title{
+    //font-size: 82px;
+    margin-bottom: 45px;
+}
+.person-img img{
+    border: none;
+    width: 85%;
+}
+#skill .sec-overlay{
+    background: rgba(255,255,255, .75);
+}
+
+#funfacts .sec-inner{
+background: rgba(255,255,255, .75);
+}
+
+.logo_navbar{
+    //width: 10%;
+}
+
+.mobile_logo{
+
+}
+
+#holygon-text-justify{
+    text-align: justify;
+}
+
+.card-img-wrap{
+    width: 400px;
+    height: 300px;
+}
+
+#rubyonrails{
+    white-space: nowrap;
+}
+.primary-nav .brand-logo img {
+    height: 52px;
+    margin: 15px 5px 0;
+}
+
+
+.experience-inner .card .card-image img{
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.education-inner .card .card-image img {
+     top: 0;
+    left: 0;
+    position: absolute;
+}
+
+@font-face {
+   font-family: CustomFontForMain;
+   src: url("../font/Teko-Light.ttf");
+}
+
+
+.custom-font h1{
+    font-size: 110px;
+    letter-spacing: 7px;
+    font-family: CustomFontForMain;
+}
+
+#team .card-image img{
+    top: 0;
+    left: 0;
+    position: absolute;
+}
